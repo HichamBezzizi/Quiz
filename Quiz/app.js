@@ -21,7 +21,23 @@ form.addEventListener('submit', e => {
 
     // displays result div by removing the class d-none
     result.classList.remove('d-none');
-    // takes the span of result div and display the output of the score variable inside the text
-    result.querySelector('span').textContent = `${score}%`;
 
-})
+    // takes the span of result div and display the output of the score variable inside the text
+    // result.querySelector('span').textContent = `${score}%`;
+
+    // score will start at 0
+    let output = 0;
+
+    //timer that counts from 0 to the eventual output based on the right or wrong answers
+    const timer = setInterval(() => {
+
+        result.querySelector('span').textContent = `${output}%`;
+
+        if (output === score) {
+            clearInterval(timer)
+        } else {
+            output++;
+        }
+
+    }, 10);
+});
