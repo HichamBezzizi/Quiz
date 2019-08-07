@@ -12,9 +12,11 @@ body {
 
 .titleQuiz {
     font-family: 'Saira Stencil One', cursive;
+    /* neat trick to make a title with background */
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-image: url("/img/thomas-heintz-0tgMnMIYQ9Y-unsplash.jpg");
+    /* neat trick to make a title with background */
 
 }
 
