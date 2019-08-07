@@ -18,6 +18,12 @@
 
 }
 
+.quizPercent {
+    background: -webkit-linear-gradient(rgba(0, 3, 55, 1), rgba(104, 109, 129, 1));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 .btn {
     font-size: 20px;
 }
