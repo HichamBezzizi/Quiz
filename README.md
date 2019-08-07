@@ -6,5 +6,8 @@ Technologies used:
 - CSS
 - Bootstrap
 - Javascript
+  Resources used:
+
+- Images from Unsplash.
 
 URL = https://hichambezzizi.github.io/Quiz/
