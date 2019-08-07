@@ -1,8 +1,10 @@
-##A Basic JS Quiz that I have made.
+A Basic JS Quiz that I have made.
 
-#Technologies used:
+Technologies used:
 
 - HTML
 - CSS
 - Bootstrap
 - Javascript
+
+URL = https://hichambezzizi.github.io/Quiz/
