@@ -1,0 +1,23 @@
+.titleQuiz {
+    font-family: 'Saira Stencil One', cursive;
+    background: -webkit-linear-gradient(rgba(0, 3, 55, 1), rgba(104, 109, 129, 1));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.result {
+    font-family: 'Crimson Text', serif;
+}
+
+.quiz {
+
+    font-family: 'Crimson Text', serif;
+    font-size: 25px;
+    background: rgb(0, 3, 55);
+    background: linear-gradient(90deg, rgba(0, 3, 55, 1) 0%, rgba(104, 109, 129, 1) 100%);
+
+}
+
+.btn {
+    font-size: 20px;
+}

@@ -1,10 +1,9 @@
-const correctAnswers = ['B', 'B', 'B', 'B'];
+const correctAnswers = ['B', 'A', 'A', 'B'];
 const form = document.querySelector('.quiz-form');
 const result = document.querySelector('.result');
 
 form.addEventListener('submit', e => {
     e.preventDefault();
-
 
     // automatically scrolls to the top on submit
     scrollTo(0, 0);
@@ -18,7 +17,6 @@ form.addEventListener('submit', e => {
             score += 25;
         }
     });
-
     // displays result div by removing the class d-none
     result.classList.remove('d-none');
 
