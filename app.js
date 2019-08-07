@@ -1,6 +1,8 @@
 const correctAnswers = ['B', 'A', 'A', 'B'];
 const form = document.querySelector('.quiz-form');
 const result = document.querySelector('.result');
+const startBtn = document.querySelector('.btnStart');
+const qtnList = document.querySelector('.questionList');
 
 form.addEventListener('submit', e => {
     e.preventDefault();
@@ -38,4 +40,12 @@ form.addEventListener('submit', e => {
         }
 
     }, 10);
+
+
 });
+
+startBtn.addEventListener('click', () => {
+
+    qtnList.classList.add('d-block');
+
+})
