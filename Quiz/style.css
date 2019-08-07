@@ -1,12 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("/img/mitch-harris-cPZ21gvclO8-unsplash.jpg");
+    background-repeat: repeat;
+    background-origin: center;
+    height: 100vh;
+}
+
 .titleQuiz {
     font-family: 'Saira Stencil One', cursive;
-    background: -webkit-linear-gradient(rgba(0, 3, 55, 1), rgba(104, 109, 129, 1));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    background-image: url("/img/thomas-heintz-0tgMnMIYQ9Y-unsplash.jpg");
+
 }
 
 .result {
     font-family: 'Crimson Text', serif;
+    color: white;
+
 }
 
 .quiz {
