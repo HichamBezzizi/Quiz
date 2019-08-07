@@ -6,7 +6,8 @@ Technologies used:
 - CSS
 - Bootstrap
 - Javascript
-  Resources used:
+
+Resources used:
 
 - Images from Unsplash.
 
