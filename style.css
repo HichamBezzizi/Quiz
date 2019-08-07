@@ -4,11 +4,7 @@
 }
 
 body {
-<<<<<<< HEAD
     background-image: url("img/mitch-harris-cPZ21gvclO8-unsplash.jpg");
-=======
-    background-image: url("/img/mitch-harris-cPZ21gvclO8-unsplash.jpg");
->>>>>>> 6bc9029562a62c9318e389a4ae947723322c16b4
     background-repeat: repeat;
     background-origin: center;
     height: 100vh;
@@ -17,11 +13,7 @@ body {
 .titleQuiz {
     font-family: 'Saira Stencil One', cursive;
     /* neat trick to make a title with background */
-<<<<<<< HEAD
     background-image: url("img/thomas-heintz-0tgMnMIYQ9Y-unsplash.jpg");
-=======
-    background-image: url("/img/thomas-heintz-0tgMnMIYQ9Y-unsplash.jpg");
->>>>>>> 6bc9029562a62c9318e389a4ae947723322c16b4
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     /* neat trick to make a title with background */
