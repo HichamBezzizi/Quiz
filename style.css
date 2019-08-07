@@ -15,6 +15,8 @@ body {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     /* neat trick to make a title with background */
+    -webkit-animation: titleQuiz 3s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+    animation: titleQuiz 3s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
 
 }
 
@@ -41,4 +43,34 @@ body {
 
 .btn {
     font-size: 20px;
+}
+
+@-webkit-keyframes titleQuiz {
+    0% {
+        letter-spacing: -0.5em;
+        opacity: 0;
+    }
+
+    40% {
+        opacity: 0.6;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes titleQuiz {
+    0% {
+        letter-spacing: -0.5em;
+        opacity: 0;
+    }
+
+    40% {
+        opacity: 0.6;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
