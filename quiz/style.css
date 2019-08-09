@@ -4,14 +4,14 @@
 }
 
 body {
-    background: url("mitch-harris-cPZ21gvclO8-unsplash.jpg") repeat center;
+    background: url("/quiz/img/mitch-harris-cPZ21gvclO8-unsplash.jpg") repeat center;
     height: 100vh;
 }
 
 .titleQuiz {
     font-family: 'Saira Stencil One', cursive;
     /* neat trick to make a title with background */
-    background-image: url("thomas-heintz-0tgMnMIYQ9Y-unsplash.jpg");
+    background-image: url("/quiz/img/thomas-heintz-0tgMnMIYQ9Y-unsplash.jpg");
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     /* neat trick to make a title with background */
