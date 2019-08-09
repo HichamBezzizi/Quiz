@@ -11,4 +11,4 @@ Resources used:
 
 - Images from Unsplash.
 
-URL = https://hichambezzizi.github.io/Quiz/
+URL = https://hichambezzizi.github.io/Quiz/quizApp/
